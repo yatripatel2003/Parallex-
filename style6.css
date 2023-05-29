@@ -1,0 +1,75 @@
+html,body{
+    height: 100%;
+    margin:0;
+    font-size: 16px;
+    font-family: "lato",sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+    font-family: 'Poppins', sans-serif;
+
+}
+.pimg1{
+    background-image: url('images/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg');
+    min-height:100%;
+    
+
+}
+.pimg2{
+    background-image: url('images/lucas-calloch-P-yzuyWFEIk-unsplash.jpg');
+    min-height:400px;;
+    
+
+}
+.pimg3{
+    
+    background-image: url('images/manuel-venturini-TBmHA1LOuZU-unsplash.jpg');
+    min-height:400px;;
+    
+
+}
+
+.pimg1,.pimg2,.pimg3{
+    position:relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.text{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:black;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+
+}
+.textbg{
+    padding:20px;
+    color:#fff;
+    background:#313534;
+
+}
+.section-light{
+    padding:50px 80px;
+    text-align:center;
+    background-color: #f4f4f4;
+    color:#666;
+    font-size:20px;
+}
+h2{
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:35px;
+}
+.section-dark{
+    padding:50px 80px;
+    text-align:center;
+    background-color: #282e34;
+    color:#ddd;
+    font-size:20px;
+}
+
